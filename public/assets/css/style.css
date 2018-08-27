@@ -1,0 +1,60 @@
+.body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*background-color: darkcyan;*/
+    background-image: url("https://cdn5.f-cdn.com/contestentries/150058/13680058/54d8f4af07f63_thumb900.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    background-size: auto;
+    background-attachment: fixed;
+    background-color: black;
+
+}
+
+
+.header{
+    text-align: center;
+}
+
+.container-wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.card{
+    padding: 2vh;
+    margin: 3vh;
+    min-width: 25%;
+    color: whitesmoke;
+    background-color: transparent;
+}
+
+.burger-card{
+    padding: 0.5vh;
+    margin: 0.5vh;
+    background-color: whitesmoke;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form{
+    text-align: center;
+}
+
+.input{
+    width: 70%;
+}
+
+h3{
+    color: cornsilk;
+    text-align: center;
+}
+
+
+@media only screen and (max-width : 768px) {
+    .container-wrapper{
+        flex-direction: column;
+    }
+}

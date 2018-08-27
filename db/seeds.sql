@@ -1,0 +1,3 @@
+INSERT INTO burgers (name) VALUES ('DOUBLE-DOUBLE');
+INSERT INTO burgers (name) VALUES ('CHEESEBURGER');
+INSERT INTO burgers (name) VALUES ('HAMBURGER');
